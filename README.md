@@ -12,7 +12,7 @@ I implemented a full fledged UNet neural network with a custom loss function, wh
 # Files
 | File | Description |
 | ---- | ----------- | 
-| model.ipynb | Notebook containing the model, as well as the training and evaluation process.|
+| model| Notebook containing the model, as well as the training and evaluation process.|
 | img/ | Contains the images used in the Readme. |
 
 # Results

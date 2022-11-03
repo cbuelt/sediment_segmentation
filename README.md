@@ -3,11 +3,20 @@
 This project contains my code for the sediment segmentation challenge I took part in, during my exchange to ITMO University, St. Petersburg. The aim of the challenge is to build a machine learning model for image segmentation.
 
 # Data
+The data was provided as part of the challenge and is not made publicly available. The data is in form of sediment images of different shapes. A typical picture looks like this:
 
 # Model
 I implemented a full fledged UNet neural network with a custom loss function, which is an interpolation of the Dice-Loss and the Jaccard-Loss. In addition I added a pipeline for image transformations in order to obtain more robust results.
 
+
+# Files
+| File | Description |
+| ---- | ----------- | 
+| UNet | Contains the data used for the models. |
+| functions | Contains evaluation of the models and the challenge performance. |
+
 # Results
+After training the model, the network was quickly able to predict the correct segmentation mask. 
 
 # Resources
 Here you can find some of the resources I used to develop my model:

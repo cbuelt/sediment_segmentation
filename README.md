@@ -12,9 +12,9 @@ I implemented a full fledged UNet neural network with a custom loss function, wh
 # Files
 | File | Description |
 | ---- | ----------- | 
-| model | Contains the model, as well as helper functions. |
-| training | Notebook with the training and evaluation process.|
-| img | Contains the images used in the Readme. |
+| model.py | Contains the model, as well as helper functions. |
+| training.ipynb | Notebook with the training and evaluation process.|
+| img/ | Contains the images used in the Readme. |
 
 # Results
 After training the model, the network was quickly able to predict the correct segmentation mask. 

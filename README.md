@@ -12,8 +12,8 @@ I implemented a full fledged UNet neural network with a custom loss function, wh
 # Files
 | File | Description |
 | ---- | ----------- | 
-| model| Notebook containing the model, as well as the training and evaluation process.|
-| img/ | Contains the images used in the Readme. |
+| Unet| Notebook containing the model, as well as the training and evaluation process.|
+| ex_.png | Example images. |
 
 # Results
 After training the model, the network was quickly able to predict the correct segmentation mask. This also worked for the transformed version of the images. Below you can find some example output:
